@@ -117,6 +117,9 @@ class _ShadTooltipState extends State<ShadTooltip> {
     final effectiveShadows = widget.shadows ?? theme.tooltipTheme.shadows;
     final effectiveDecoration =
         widget.decoration ?? theme.tooltipTheme.decoration;
+
+    JUST INTRODUCING AN ERROR TO SHOW HOW MUCH IT TAKES
+
     final effectiveAnchor = widget.anchor ??
         theme.tooltipTheme.anchor ??
         const ShadAnchorAuto(
